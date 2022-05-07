@@ -1,3 +1,12 @@
+# this version of countdown does not use a compliler and is instead interpretted.
+# python uses dynamic types vs Rust's static types.
+# In both examples however I am able to return tuples of ints back to the main function call.
+# In python I do not need a main method and this program can run through my while loop at the bottom. 
+# In the rust code the main method is how we run the program like in any C style language.
+# Both examples are good examples of functional programming 
+# python is arguably an easier arg parser, however, it's runtime is slower due to interpretation.
+# Rust has the speed of C without needing dynamic memory allocation due to borrow checking, default immutability, etc...
+
 import time
 import argparse
 
