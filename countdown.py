@@ -15,6 +15,7 @@ args = parser.parse_args()
 
 total = args.min * 60 + args.sec
 
+# loop through total time and print updated time, convert it, then go until 0
 while total:
     min, sec = time_convert(total)
     time_left = str(min).zfill(2)+ ":" + str(sec).zfill(2) # zfill to fill 2 columns
